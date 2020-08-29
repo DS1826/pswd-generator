@@ -28,12 +28,12 @@ function generatePassword() {
     // Asks user to select a password length from 8-128 characters.
     pswdlength = parseInt(prompt("How many characters do you want to include in your password? Pick a number between 8-128."));
 
-    // Alerts/Prompts the user if they do not enter a value OR if they enter a value outside of the range.
+    // Alerts the user if they do not enter a value OR Prompts the user if they enter a value outside of the range.
     if (!pswdlength) {
-        alert("Please enter a value.");
+        alert("You must enter a value. Refresh and try again.");
+        return;
     } else if (pswdlength < 8 || pswdlength > 128) {
-        // pswdlength = parseInt(prompt("You must choose between 8 and 128"));
-        pswdlength = prompt("Please choose a password length between 8-128 characters");
+        pswdlength = parseInt(prompt("Please choose a password length between 8-128 characters"));
     };
 
     // Asks user which criteria they want to include: numbers, special characters or upper/lowercase letters.
@@ -69,7 +69,7 @@ function generatePassword() {
     // Alerts user if there is a false return for all 4 criteria confirmations.
     if (!confirmSymbol && !confirmNumber && !confirmUppercase && !confirmLowercase) {
         alert("After selecting your password length. You must choose from the additional criteria. Please refresh and try again");
-
+        return;
     }
 
     // For loop to generates random password characters based on user selected password length
