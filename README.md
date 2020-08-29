@@ -13,7 +13,7 @@ This project was created with:
 * Javascript
 
 ## Launch
-This project can be accessed via the following link: 
+This project can be accessed via the following link: https://ds1826.github.io/pswd-generator/
 
 ## Acknowledgments
 This project is made possible by the awesome support of GW Full-Stack Bootcamp instructors, my BCS Tutor and all who participated in the online study groups. Moreover, the following resources were helpful:
