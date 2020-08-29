@@ -10,13 +10,13 @@ This application generates a random password based on user-selected criteria. Th
 This project was created with: 
 * HTML
 * CSS
-* Javascript
+* JavaScript
 
 ## Launch
 This project can be accessed via the following link: https://ds1826.github.io/pswd-generator/
 
 ## Acknowledgments
-This project is made possible by the awesome support of GW Full-Stack Bootcamp instructors, my BCS Tutor and all who participated in the online study groups. Moreover, the following resources were helpful:
+This project is made possible by the awesome support of my GW Full-Stack Bootcamp instructors, my BCS Tutor and all who participated in the online study group. Moreover, the following resources were helpful:
 
 * [Traversy Media via YouTube](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 * [freeCodeCamp Javascript Tutorials](https://www.freecodecamp.org)
